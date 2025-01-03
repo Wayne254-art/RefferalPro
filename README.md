@@ -11,8 +11,8 @@ ReferralPro is a comprehensive referral management system designed to drive grow
 - **Secure & Scalable** – Built using the latest MERN stack technologies.  
 
 ## 🛠️ Tech Stack  
-- **Frontend:** React, Redux, Axios, React Router  
-- **Backend:** Node.js, Express, MongoDB  
+- **Frontend:** React, Redux, Axios, React Router Dom 
+- **Backend:** Node.js, Express, SQL (MySQL)  
 - **Authentication:** JWT, bcrypt  
 - **Payments:** mpesa configured  
 
