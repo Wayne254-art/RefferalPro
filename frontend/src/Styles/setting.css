@@ -1,0 +1,75 @@
+
+#update-account-form{
+    width: 100%;
+    margin-top: 5px;
+}
+
+#change-password-form{
+    width: 100%;
+    margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #060aff;
+    padding-bottom: 5px;
+}
+.setting-form-group {
+    margin-bottom: 15px;
+}
+.setting-form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.setting-form-group input,
+.setting-form-group select,
+.setting-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.setting-form-group input[type="checkbox"],
+.setting-form-group input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+.setting-form-group .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+.setting-form-group .checkbox-group label {
+    margin-right: 20px;
+}
+.setting-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.setting-button:hover {
+    background-color: #060aff;
+}
+
+/* Default styles for setting-container */
+.setting-container {
+    margin-left: 270px;
+    padding: 20px;
+    /* background: url('../Assets/All-images/setting.jpg') no-repeat center center; */
+    background-size: cover;
+}
+
+/* Styles for mobile */
+@media (max-width: 768px) {
+    .setting-container {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+}
+

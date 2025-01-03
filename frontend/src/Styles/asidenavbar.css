@@ -1,0 +1,130 @@
+/* Add smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+.aside-navbar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    cursor: pointer; /* Change cursor to pointer */
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.profile-details {
+    text-align: center;
+}
+
+.profile-details h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.profile-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.aside-navbar ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+    margin-top: -350px;
+}
+
+.aside-navbar ul li {
+    margin-bottom: 20px; /* Add space between links */
+}
+
+.aside-navbar ul li a {
+    display: block;
+    padding: 10px 20px; /* Add padding to make the links more spacious */
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set link color */
+    background-color: #f0f0f0; /* Background color for links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.aside-navbar ul li a:hover {
+    color: blue;
+    background-color: #d0d0d0; /* Change background color on hover */
+}
+
+.aside-navbar ul li a:active::after {
+    color: blue;
+    background-color: #d0d0d0;
+}
+
+
+.logout-button {
+    background-color: #0a0708;
+    width: 80%;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 360px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+/* Mobile styles */
+.menu-button {
+    display: none;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+        display: block;
+    }
+
+    .aside-navbar {
+        width: 100%;
+        left: -100%;
+    }
+
+    .aside-navbar.open {
+        left: 0;
+    }
+
+    nav ul li {
+        text-align: flex-start;
+    }
+
+    .logout-button {
+        width: 80%;
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,85 @@
+
+
+.dashboard-container {
+    display: flex;
+}
+
+.dashboard-content {
+    margin-left: 270px; /* Adjust this value based on the width of the aside navbar */
+    padding: 20px;
+}
+
+
+/* src/components/Styles/dashboard.css */
+.dashboard-container {
+    display: flex;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.referral-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.referral-info p,
+.referral-info h2 {
+    margin: 10px 0;
+}
+
+.referral-info h2 {
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.reward-tier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.reward-tier h2 {
+    margin: 0 10px;
+    color: #ff0000;
+    font-size: 24px;
+}
+
+.reward-tier p {
+    margin: 0;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .dashboard-content {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .dashboard-content h1 {
+        font-size: 24px;
+    }
+
+    .dashboard-content p {
+        font-size: 14px;
+    }
+
+    .dashboard-content h2 {
+        font-size: 16px;
+    }
+
+    .reward-tier h2 {
+        font-size: 28px;
+    }
+}
+

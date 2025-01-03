@@ -1,0 +1,16 @@
+.active-status {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .deactivated-status {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  

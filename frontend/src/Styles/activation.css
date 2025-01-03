@@ -1,0 +1,49 @@
+
+
+.activation-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.activation-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    align-items: center;
+}
+.activation-container h1 {
+    color: #4CAF50;
+}
+.activation-container p {
+    margin: 15px 0;
+}
+.steps {
+    text-align: left;
+    margin-top: 20px;
+}
+.steps ol {
+    padding-left: 20px;
+}
+.steps ol li {
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #45a049;
+}
